@@ -15,6 +15,8 @@
 PRODUCT_BRAND := Huawei
 PRODUCT_DEVICE := BND
 
+PRODUCT_PROPERTY_OVERRIDES += persist.hal.binderization=true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
