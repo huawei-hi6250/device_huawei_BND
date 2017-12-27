@@ -33,6 +33,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Ring_Synth_04.ogg \
     ro.config.notification_sound=pixiedust.ogg
 
+# VNDK-SP:
+PRODUCT_PACKAGES += \
+    vndk-sp
+
 $(call inherit-product, build/target/product/core_base.mk)
 $(call inherit-product-if-exists, frameworks/webview/chromium/chromium.mk)
 $(call inherit-product-if-exists, frameworks/base/data/keyboards/keyboards.mk)
