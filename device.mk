@@ -107,6 +107,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.ringtone=Ring_Synth_04.ogg \
     ro.config.notification_sound=pixiedust.ogg
 
+# USB
+PRODUCT_PACKAGES += \
+	android.hardware.usb@1.0-service
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
