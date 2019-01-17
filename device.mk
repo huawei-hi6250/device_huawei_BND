@@ -15,6 +15,27 @@
 PRODUCT_BRAND := Huawei
 PRODUCT_DEVICE := BND
 
+# Audio
+PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio@2.0-service \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.audio.effect@2.0-service \
+    android.hardware.soundtrigger@2.0-impl \
+    android.hardware.soundtrigger@2.0-service \
+    libvolumelistener \
+    audio.a2dp.default \
+    audio.r_submix.default \
+    audio.usb.default \
+    libaudio-resampler \
+    tinymix
+
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth@1.0 \
+    libbt-vendor \
+    libbthost_if
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
