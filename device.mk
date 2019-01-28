@@ -36,6 +36,10 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     libbthost_if
 
+# Fingerprint
+PRODUCT_PACKAGES += \
+    fingerprintd
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
