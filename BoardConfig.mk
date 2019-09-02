@@ -3,7 +3,7 @@
 # Product-specific compile-time definitions.
 #
 
-# The generic product target doesn't have any hardware-specific pieces.
+
 TARGET_NO_BOOTLOADER := true
 
 TARGET_ARCH := arm64
@@ -13,14 +13,11 @@ TARGET_CPU_ABI := arm64-v8a
 
 TARGET_2ND_ARCH := arm
 TARGET_2ND_ARCH_VARIANT := armv7-a-neon
-TARGET_2ND_CPU_VARIANT := cortex-a15
+TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 
 TARGET_USES_64_BIT_BINDER := true
-
-SMALLER_FONT_FOOTPRINT := true
-MINIMAL_FONT_FOOTPRINT := true
 
 # Kernel Definitions
 BOARD_KERNEL_CMDLINE := loglevel=4 coherent_pool=512K page_tracker=on slub_min_objects=12 unmovable_isolate1=2:192M,3:224M,4:256M printktimer=0xfff0a000,0x534,0x538
@@ -37,13 +34,10 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-androidkernel-
 
 # Some framework code requires this to enable BT
 BOARD_HAVE_BLUETOOTH := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/bnd/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/BND/bluetooth
 
-BOARD_USES_GENERIC_AUDIO := true
 
 USE_CAMERA_STUB := true
-
-BUILD_EMULATOR_OPENGL := true
 USE_OPENGL_RENDERER := true
 
 # PDK does not use ext4 image, but it is added here to prevent build break.
