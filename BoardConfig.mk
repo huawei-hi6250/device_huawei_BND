@@ -4,6 +4,9 @@
 #
 
 DEVICE_PATH := device/huawei/BND
+DEVICE_VENDOR_PATH := vendor/huawei/BND
+
+-include $(DEVICE_VENDOR_PATH)/BoardConfigVendor.mk
 
 # Platform
 TARGET_BOARD_PLATFORM := hi6250

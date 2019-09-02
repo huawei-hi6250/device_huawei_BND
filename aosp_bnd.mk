@@ -22,3 +22,6 @@ PRODUCT_MODEL := Honor 7X
 
 # default is nosdcard, S/W button enabled in resource
 DEVICE_PACKAGE_OVERLAYS := $(DEVICE_PATH)/overlay
+
+# Include vendor makefiles
+$(call inherit-product-if-exists, $(DEVICE_VENDOR_PATH)/BND-vendor.mk)
