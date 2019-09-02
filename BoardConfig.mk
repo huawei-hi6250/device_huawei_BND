@@ -65,6 +65,10 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 BOARD_SEPOLICY_DIRS += build/target/board/generic/sepolicy
 
+DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifest.xml
+DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/configs/compatibility_matrix.xml
+
+
 # WiFi
 WPA_SUPPLICANT_VERSION          := VER_0_8_X
 BOARD_WPA_SUPPLICANT_DRIVER 	:= NL80211
