@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_bnd.mk
+    $(LOCAL_DIR)/linege_bnd.mk
