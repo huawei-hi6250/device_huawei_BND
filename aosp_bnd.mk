@@ -13,11 +13,12 @@
 # limitations under the License.
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+$(call inherit-product, device/huawei/BND/device.mk)
 
-PRODUCT_NAME := aosp_bnd
+PRODUCT_NAME := aosp_BND
 PRODUCT_DEVICE := BND
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor 7X
 
 # default is nosdcard, S/W button enabled in resource
-DEVICE_PACKAGE_OVERLAYS := device/generic/armv7-a-neon/overlay
+DEVICE_PACKAGE_OVERLAYS := device/huawei/BND/overlay
