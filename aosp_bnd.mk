@@ -13,13 +13,11 @@
 # limitations under the License.
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, device/generic/armv7-a-neon/mini_common.mk)
 
-PRODUCT_NAME := mini_arm64
-PRODUCT_DEVICE := arm64
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := Mini for arm64
+PRODUCT_NAME := aosp_bnd
+PRODUCT_DEVICE := BND
+PRODUCT_BRAND := Huawei
+PRODUCT_MODEL := Honor 7X
 
 # default is nosdcard, S/W button enabled in resource
 DEVICE_PACKAGE_OVERLAYS := device/generic/armv7-a-neon/overlay
-PRODUCT_CHARACTERISTICS := nosdcard

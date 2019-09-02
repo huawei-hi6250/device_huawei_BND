@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/mini_arm64.mk
+    $(LOCAL_DIR)/aosp_bnd.mk
