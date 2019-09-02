@@ -5,8 +5,14 @@
 
 DEVICE_PATH := device/huawei/BND
 
+# Platform
+TARGET_BOARD_PLATFORM := hi6250
+
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := hi6250
 TARGET_NO_BOOTLOADER := true
 
+# CPU
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
 TARGET_CPU_VARIANT := cortex-a53
@@ -17,8 +23,11 @@ TARGET_2ND_ARCH_VARIANT := armv7-a-neon
 TARGET_2ND_CPU_VARIANT := cortex-a53
 TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
-
+TARGET_BOARD_GPU := mali-450mp
 TARGET_USES_64_BIT_BINDER := true
+TARGET_IS_64_BIT := true
+TARGET_SUPPORTS_32_BIT_APPS := true
+TARGET_SUPPORTS_64_BIT_APPS := true
 
 # Kernel Definitions
 BOARD_KERNEL_CMDLINE := loglevel=4 coherent_pool=512K page_tracker=on slub_min_objects=12 unmovable_isolate1=2:192M,3:224M,4:256M printktimer=0xfff0a000,0x534,0x538
