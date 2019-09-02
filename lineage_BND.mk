@@ -12,11 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+$(call inherit-product, device/huawei/BND/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_BND
+PRODUCT_NAME := lineage_BND
 PRODUCT_DEVICE := BND
 PRODUCT_BRAND := Huawei
 PRODUCT_MODEL := Honor 7X

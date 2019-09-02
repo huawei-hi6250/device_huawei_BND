@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/linege_bnd.mk
+    $(LOCAL_DIR)/lineage_BND.mk
