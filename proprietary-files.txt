@@ -1,0 +1,800 @@
+system/etc/audio_effects.conf
+system/etc/audio_policy_configuration.xml
+system/etc/audio_policy_volumes.xml
+-system/etc/init/hw/init.device.kirin980.rc
+system/etc/primary_audio_policy_configuration.xml
+system/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
+system/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
+system/lib64/vendor.huawei.hardware.camera.camResource@1.2.so
+system/lib64/vendor.huawei.hardware.camera.camResource@1.3.so
+system/lib64/vendor.huawei.hardware.camera.camResource.orbService@1.0.so
+system/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
+system/lib64/vendor.huawei.hardware.camera.cfgsvr@1.1.so
+system/lib64/vendor.huawei.hardware.camera.factory@1.0.so
+system/lib64/vendor.huawei.hardware.hwdisplay@1.0.so
+system/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so
+system/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so
+system/lib/vendor.huawei.hardware.camera.camResource@1.0.so
+system/lib/vendor.huawei.hardware.camera.camResource@1.1.so
+system/lib/vendor.huawei.hardware.camera.camResource@1.2.so
+system/lib/vendor.huawei.hardware.camera.camResource@1.3.so
+system/lib/vendor.huawei.hardware.camera.camResource.orbService@1.0.so
+system/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so
+system/lib/vendor.huawei.hardware.camera.cfgsvr@1.1.so
+system/lib/vendor.huawei.hardware.camera.factory@1.0.so
+ vendor/bin/32e6a847-ac89-4f81-8a13-f4ae50451d7f.sec
+ vendor/bin/335129cd-41fa-4b53-9797-5ccb202a52d4.sec
+ vendor/bin/4ae7ba51-2810-4cee-abbe-a42307b4ace3.sec
+ vendor/bin/54ad737b-d84a-46bd-b993-1a90883f66f7.sec
+ vendor/bin/6c8cf255-ca98-439e-a98e-ade64022ecb6.sec
+ vendor/bin/859703f3-3cc5-4e88-b263-08f9ce82e3d0.sec
+ vendor/bin/86310d18-5659-47c9-b212-841a3ca4f814.sec
+ vendor/bin/868ccafb-794b-46c6-b5c4-9f1462de4e02.sec
+ vendor/bin/883890ba-3ef8-4f0b-9c02-f5874acbf2ff.sec
+ vendor/bin/993e26b8-0273-408e-98d3-60c997c37121.sec
+ vendor/bin/9b17660b-8968-4eed-917e-dd32379bd548.sec
+ vendor/bin/b4b71581-add2-e89f-d536-f35436dc7973.sec
+ vendor/bin/c30917f8-d869-4379-8f46-4ac62be198dd.sec
+ vendor/bin/d77c4d60-d279-4425-afa8-7f94559eae16.sec
+ vendor/bin/e00d7df7-79e5-4507-9d8c-df03d5a7a8a5.sec
+ vendor/bin/e8014913-e501-4d44-a9d6-058ec3b93b90.sec
+ vendor/bin/gnss_control_hisi
+ vendor/bin/gnss_engine_hisi
+ vendor/bin/gnss_supl20clientd_hisi
+ vendor/bin/gnss_watchlssd_thirdparty
+ vendor/bin/hinetmanager
+ vendor/bin/hisecd
+ vendor/bin/hivwserver
+ vendor/bin/hostapd_hisi
+ vendor/bin/hw/vendor.huawei.hardware.audio@4.0-service
+ vendor/bin/hw/vendor.huawei.hardware.biometrics.fingerprint@2.1-service
+ vendor/bin/hw/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1-service
+ vendor/bin/hw/vendor.huawei.hardware.dolby.dms@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.fm@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.gnss@1.2-service
+ vendor/bin/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-service
+ vendor/bin/hw/vendor.huawei.hardware.hisupl@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.hwdisplay@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.hwdisplay.displayengine@1.2-service
+ vendor/bin/hw/vendor.huawei.hardware.hwfactoryinterface@1.1-service
+ vendor/bin/hw/vendor.huawei.hardware.hwfs@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.hwhiview@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.hwsecurity-service
+ vendor/bin/hw/vendor.huawei.hardware.hwupdate@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.hwvibrator@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.iawareperf@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.kds@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.libteec@2.0-service
+ vendor/bin/hw/vendor.huawei.hardware.light@2.0-service
+ vendor/bin/hw/vendor.huawei.hardware.nfc@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.otasimlock@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.perfgenius@2.0-service
+ vendor/bin/hw/vendor.huawei.hardware.power@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.sensors@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.tp@1.0-service
+ vendor/bin/hw/vendor.huawei.hardware.wifi@1.1-service
+ vendor/bin/wpa_cli
+ vendor/bin/wpa_cli_hisi
+ vendor/bin/wpa_supplicant_hisi
+ vendor/etc/cfg_ags2_al00b_hisi.ini
+ vendor/etc/cfg_ags2_hisi.ini
+ vendor/etc/cfg_ags2_l03_hisi.ini
+ vendor/etc/cfg_ags2_w09b_hisi.ini
+ vendor/etc/cfg_ags2_w09_hisi.ini
+ vendor/etc/cfg_ags2_w19b_hisi.ini
+ vendor/etc/cfg_ags2_w19_hisi.ini
+ vendor/etc/cfg_ane_al00_hisi.ini
+ vendor/etc/cfg_ane_lx1_hisi.ini
+ vendor/etc/cfg_ane_lx1_vh_hisi.ini
+ vendor/etc/cfg_ane_lx2_hisi.ini
+ vendor/etc/cfg_ane_lx2j_hisi.ini
+ vendor/etc/cfg_ane_lx3_hisi.ini
+ vendor/etc/cfg_bac_al00_hisi.ini
+ vendor/etc/cfg_bach2_al00b_hisi.ini
+ vendor/etc/cfg_bach2_hisi.ini
+ vendor/etc/cfg_bach2_l09b_hisi.ini
+ vendor/etc/cfg_bach2_l09_hisi.ini
+ vendor/etc/cfg_bach2_w09b_hisi.ini
+ vendor/etc/cfg_bach2_w09_hisi.ini
+ vendor/etc/cfg_bach2_w19b_hisi.ini
+ vendor/etc/cfg_bach2_w19_hisi.ini
+ vendor/etc/cfg_bac_lx1_hisi.ini
+ vendor/etc/cfg_bac_lx3_hisi.ini
+ vendor/etc/cfg_berlin_al10_hisi.ini
+ vendor/etc/cfg_berlin_al20_hisi.ini
+ vendor/etc/cfg_berlin_al30_hisi.ini
+ vendor/etc/cfg_berlin_al40_hisi.ini
+ vendor/etc/cfg_berlin_dl00_hisi.ini
+ vendor/etc/cfg_berlin_l21_hisi.ini
+ vendor/etc/cfg_berlin_l21l_hisi.ini
+ vendor/etc/cfg_berlin_l22_hisi.ini
+ vendor/etc/cfg_berlin_l23l_hisi.ini
+ vendor/etc/cfg_berlin_l24_hisi.ini
+ vendor/etc/cfg_berlin_tl00a_hisi.ini
+ vendor/etc/cfg_berlin_tl00_hisi.ini
+ vendor/etc/cfg_berlin_tl10_hisi.ini
+ vendor/etc/cfg_bnd_al10_hisi.ini
+ vendor/etc/cfg_bnd_l21_hisi.ini
+ vendor/etc/cfg_bnd_l24_hisi.ini
+ vendor/etc/cfg_bnd_tl10_hisi.ini
+ vendor/etc/cfg_fig_al00x_hisi.ini
+ vendor/etc/cfg_fig_la1_hisi.ini
+ vendor/etc/cfg_fig_lx1_hisi.ini
+ vendor/etc/cfg_fig_lx2_hisi.ini
+ vendor/etc/cfg_fig_lx3_hisi.ini
+ vendor/etc/cfg_fig_tl00x_hisi.ini
+ vendor/etc/cfg_florida_al00_hisi.ini
+ vendor/etc/cfg_florida_al10_hisi.ini
+ vendor/etc/cfg_florida_l21_hisi.ini
+ vendor/etc/cfg_florida_l22_hisi.ini
+ vendor/etc/cfg_florida_l23_hisi.ini
+ vendor/etc/cfg_florida_l25_hisi.ini
+ vendor/etc/cfg_florida_tl00_hisi.ini
+ vendor/etc/cfg_florida_tl10_hisi.ini
+ vendor/etc/cfg_handel_hisi.ini
+ vendor/etc/cfg_handel_l0j_hisi.ini
+ vendor/etc/cfg_handel_w09_hisi.ini
+ vendor/etc/cfg_haydn_hisi.ini
+ vendor/etc/cfg_haydn_wifi_only_hisi.ini
+ vendor/etc/cfg_lld_al00_hisi.ini
+ vendor/etc/cfg_lld_al10_hisi.ini
+ vendor/etc/cfg_lld_l21_hisi.ini
+ vendor/etc/cfg_lld_l31_hisi.ini
+ vendor/etc/cfg_lld_l32_hisi.ini
+ vendor/etc/cfg_lldplus_al20_hisi.ini
+ vendor/etc/cfg_lld_tl10_hisi.ini
+ vendor/etc/cfg_nemo_al10_hisi.ini
+ vendor/etc/cfg_nemo_al30_hisi.ini
+ vendor/etc/cfg_nemo_al60_hisi.ini
+ vendor/etc/cfg_nemo_cl00_hisi.ini
+ vendor/etc/cfg_nemo_l21e_hisi.ini
+ vendor/etc/cfg_nemo_l21_hisi.ini
+ vendor/etc/cfg_nemo_l22e_hisi.ini
+ vendor/etc/cfg_nemo_l22_hisi.ini
+ vendor/etc/cfg_nemo_l23_hisi.ini
+ vendor/etc/cfg_nemo_tl00h_hisi.ini
+ vendor/etc/cfg_nemo_tl00_hisi.ini
+ vendor/etc/cfg_nemo_ul10_hisi.ini
+ vendor/etc/cfg_pic_al00_hisi.ini
+ vendor/etc/cfg_pic_lx1_hisi.ini
+ vendor/etc/cfg_pic_lx3_hisi.ini
+ vendor/etc/cfg_pic_lx9_hisi.ini
+ vendor/etc/cfg_prague_al00_hisi.ini
+ vendor/etc/cfg_prague_l21_hisi.ini
+ vendor/etc/cfg_prague_l22_hisi.ini
+ vendor/etc/cfg_prague_l23_hisi.ini
+ vendor/etc/cfg_prague_l31_hisi.ini
+ vendor/etc/cfg_prague_l31_LVSAW_hisi.ini
+ vendor/etc/cfg_prague_l62_hisi.ini
+ vendor/etc/cfg_prague_tl00_hisi.ini
+ vendor/etc/cfg_prague_tl10_hisi.ini
+ vendor/etc/cfg_rne_al00_hisi.ini
+ vendor/etc/cfg_rne_l23_hisi.ini
+ vendor/etc/cfg_rne_l2x_hisi.ini
+ vendor/etc/cfg_venus_dl00_hisi.ini
+ vendor/etc/cfg_venus_l21_hisi.ini
+ vendor/etc/cfg_venus_l22_hisi.ini
+ vendor/etc/cfg_venus_l23_hisi.ini
+ vendor/etc/cfg_venus_l31_hisi.ini
+ vendor/etc/cfg_venus_l53_hisi.ini
+ vendor/etc/cfg_venus_tl00_hisi.ini
+ vendor/etc/cfg_warsaw_al00_hisi.ini
+ vendor/etc/cfg_warsaw_l03t_hisi.ini
+ vendor/etc/cfg_warsaw_lx1a_hisi.ini
+ vendor/etc/cfg_warsaw_lx1_hisi.ini
+ vendor/etc/cfg_warsaw_lx2_hisi.ini
+ vendor/etc/cfg_warsaw_lx2j_hisi.ini
+ vendor/etc/cfg_warsaw_lx3_hisi.ini
+ vendor/etc/cfg_warsaw_tl00_hisi.ini
+ vendor/etc/fstab.hi6250
+ vendor/etc/audio/audio_effects.xml
+ vendor/etc/audio/audio_policy_configuration.xml
+ vendor/etc/bluetooth/bt_vendor.conf
+ vendor/etc/camera/bshutter
+ vendor/etc/camera/cnnmodel
+ vendor/etc/camera/configeffect
+ vendor/etc/camera/davinci
+ vendor/etc/camera/dcsr
+ vendor/etc/camera/filter
+ vendor/etc/camera/hwbeauty
+ vendor/etc/camera/hwscope
+ vendor/etc/camera/libcl
+ vendor/etc/camera/mmi7cm
+ vendor/etc/camera/multidenoise
+ vendor/etc/camera/nicefood
+ vendor/etc/camera/opticalzoom
+ vendor/etc/camera/smartae
+ vendor/etc/camera/tornado
+ vendor/etc/camera/tracking
+ vendor/etc/camera/watermark
+ vendor/etc/gnss/gnss_lss_thirdparty.conf
+ vendor/etc/init/aptouch_daemon.rc
+-vendor/etc/init/hinetmanager.rc
+-vendor/etc/init/hisecd.rc
+-vendor/etc/init/init.audio.rc
+-vendor/etc/init/init.balong_modem.rc
+-vendor/etc/init/init.connectivity.rc
+-vendor/etc/init/init.device.rc
+-vendor/etc/init/init.extmodem.rc
+-vendor/etc/init/init.hisi.rc
+-vendor/etc/init/init.ko.rc
+-vendor/etc/init/init.manufacture.rc
+-vendor/etc/init/init.performance.rc
+-vendor/etc/init/init.platform.rc
+-vendor/etc/init/init.post-fs-data.rc
+-vendor/etc/init/init.protocol.rc
+-vendor/etc/init/init.tee.rc
+-vendor/etc/init/init.vowifi.rc
+-vendor/etc/init/isplogcat.rc
+-vendor/etc/init/modemchr_service.rc
+-vendor/etc/init/rild.rc
+-vendor/etc/init/vendor.huawei.graphics.displayeffect@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.audio@4.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.biometrics.fingerprint@2.1-service.rc
+-vendor/etc/init/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1-service.rc
+-vendor/etc/init/vendor.huawei.hardware.dolby.dms@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.fm@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.gnss@1.2-service.rc
+-vendor/etc/init/vendor.huawei.hardware.graphics.mediacomm@2.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hisupl@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwdisplay@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwdisplay.displayengine@1.2-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwfactoryinterface@1.1-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwfs@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwhiview@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwsecurity-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwupdate@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.hwvibrator@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.iawareperf@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.kds@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.libteec@2.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.light@2.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.nfc@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.otasimlock@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.perfgenius@2.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.power@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.sensors@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.tp@1.0-service.rc
+-vendor/etc/init/vendor.huawei.hardware.wifi@1.1-service.rc
+-vendor/etc/init/vndservicemanager.rc
+ vendor/etc/modemConfig/balong
+ vendor/etc/modemConfig/hids_ue_msg.cfg
+ vendor/etc/modemConfig/VIA
+ vendor/etc/modemConfig/viacbp82d_log.bcfg
+ vendor/etc/modemConfig/viacbp82d_shutdown_log.bcfg
+ vendor/etc/wifi/hostapd_hisi.conf
+ vendor/etc/wifi/p2p_supplicant_hisi.conf
+ vendor/etc/wifi/p2p_supplicant_overlay.conf
+ vendor/etc/wifi/wpa_supplicant.conf
+ vendor/etc/wifi/wpa_supplicant_hisi.conf
+ vendor/etc/wifi/wpa_supplicant_overlay.conf
+ vendor/lib64/hwcam/hwcam.ddt.so
+ vendor/etc/libnfc_brcm_bln_L21.conf
+ vendor/etc/libnfc_brcm_nem_L21.conf
+ vendor/etc/libnfc_brcm_nmo_L21.conf
+ vendor/etc/libnfc_brcm_pra_L31.conf
+ vendor/etc/libnfc_brcm_venus_L21.conf
+ vendor/etc/libnfc_brcm_venus_L31.conf
+ vendor/etc/libnfc_nxp_bln_L21.conf
+ vendor/etc/libnfc_nxp_nem_L21.conf
+ vendor/etc/libnfc_nxp_nmo_L21.conf
+ vendor/etc/libnfc_nxp_pra_L31.conf
+ vendor/etc/libnfc_nxp_venus_L21.conf
+ vendor/etc/libnfc_nxp_venus_L31.conf
+ vendor/etc/media_profiles_V1_0.xml
+ vendor/etc/modemConfig
+ vendor/etc/perfgenius_config.xml
+ vendor/etc/perfgenius_event_policy.xml
+ vendor/etc/perfgenius_scenario_policy.xml
+ vendor/etc/r_submix_audio_policy_configuration.xml
+ vendor/etc/usb_audio_policy_configuration.xml
+ vendor/etc/vdec_atlas.cfg
+ vendor/etc/viacbp82d_log.bcfg
+ vendor/etc/viacbp82d_shutdown_log.bcfg
+ vendor/etc/camera/bshutter/default/algo.xml
+ vendor/etc/camera/bshutter/default/info.xml
+ vendor/etc/camera/cnnmodel/frontbokeh/DNN_Seg_Short_329.model
+ vendor/etc/camera/configeffect/default/gcd.xml
+ vendor/etc/camera/configeffect/default/rawnf.xml
+ vendor/etc/camera/configeffect/default/sharpen.xml
+ vendor/etc/camera/configeffect/default/yuvnf.xml
+ vendor/etc/camera/configeffect/digitalzoom/default
+ vendor/etc/camera/configeffect/multidenoise/default
+ vendor/etc/camera/configeffect/opticalzoom/default
+ vendor/etc/camera/davinci/default/cm_correction.dat
+ vendor/etc/camera/davinci/default/cm_foliage.dat
+ vendor/etc/camera/davinci/default/cm_normal.dat
+ vendor/etc/camera/davinci/default/cm_sky.dat
+ vendor/etc/camera/davinci/default/cm_sunset.dat
+ vendor/etc/camera/davinci/default/hdr.xml
+ vendor/etc/camera/davinci/default/imgproc.xml
+ vendor/etc/camera/davinci/default/multiframe.xml
+ vendor/etc/camera/davinci/default/nicefood
+ vendor/etc/camera/hwbeauty/default/hwbeauty_params.xml
+ vendor/etc/camera/hwscope/default/hwsz.xml
+ vendor/etc/camera/hwscope/default/kernel
+ vendor/etc/camera/mmi7cm/default/mmi7cmConfig.xml
+ vendor/etc/camera/multidenoise/default/multiframe.xml
+ vendor/etc/camera/nicefood/default/niceFood.dat
+ vendor/etc/camera/opticalzoom/default/hwnie_co.xml
+ vendor/etc/camera/opticalzoom/default/hwnie_star.xml
+ vendor/etc/camera/opticalzoom/default/hwnie.xml
+ vendor/etc/camera/opticalzoom/default/hwoz_kernel_6x.dat
+ vendor/etc/camera/opticalzoom/default/hwoz_kernel.dat
+ vendor/etc/camera/opticalzoom/default/hwoz.xml
+ vendor/etc/camera/opticalzoom/default/multiframe.xml
+ vendor/etc/camera/opticalzoom/default/oz_ref_match_1.dat
+ vendor/etc/camera/opticalzoom/default/oz_ref_match_2.dat
+ vendor/etc/camera/opticalzoom/default/oz_ref_match.dat
+ vendor/etc/camera/opticalzoom/default/sr.dat
+ vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_0.dat
+ vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_1.dat
+ vendor/etc/camera/opticalzoom/default/sr_lanczos_lut_2.dat
+ vendor/etc/camera/opticalzoom/default/sr_lanczos_lut.dat
+ vendor/etc/camera/smartae/default/SmartAE.xml
+ vendor/etc/camera/tornado/default/TornadoI.ini
+ vendor/etc/gnss/rmd/c/a_1
+ vendor/etc/gnss/rmd/c/aindex.bin
+ vendor/etc/gnss/rmd/e/a_1
+ vendor/etc/gnss/rmd/e/aindex.bin
+ vendor/etc/gnss/rmd/f/a_1
+ vendor/etc/gnss/rmd/f/aindex.bin
+ vendor/etc/gnss/rmd/g/a_1
+ vendor/etc/gnss/rmd/g/aindex.bin
+ vendor/etc/gnss/rmd/t/a_1
+ vendor/etc/gnss/rmd/t/aindex.bin
+ vendor/etc/camera/bshutter/default
+ vendor/etc/camera/cnnmodel/frontbokeh
+ vendor/etc/camera/configeffect/default
+ vendor/etc/camera/configeffect/digitalzoom
+ vendor/etc/camera/configeffect/multidenoise
+ vendor/etc/camera/configeffect/opticalzoom
+ vendor/etc/camera/davinci/default
+ vendor/etc/camera/dcsr/dcsr_kernel
+ vendor/etc/camera/dcsr/dcsr.xml
+ vendor/etc/camera/dcsr/sr.bin
+ vendor/etc/camera/filter/filter.xml
+ vendor/etc/camera/filter/mixIm.dat
+ vendor/etc/camera/hwbeauty/default
+ vendor/etc/camera/hwscope/default
+ vendor/etc/camera/libcl/opticalzoom_source.bin
+ vendor/etc/camera/libcl/wideAperture.bin
+ vendor/etc/camera/mmi7cm/default
+ vendor/etc/camera/multidenoise/default
+ vendor/etc/camera/multidenoise/multidenoise.xml
+ vendor/etc/camera/nicefood/default
+ vendor/etc/camera/opticalzoom/default
+ vendor/etc/camera/smartae/default
+ vendor/etc/camera/tornado/default
+ vendor/etc/camera/tornado/FoliageMinMaxTOA.txt
+ vendor/etc/camera/tornado/FoliageModelTOA.model
+ vendor/etc/camera/tornado/IndoorFeatureFilterTOA.txt
+ vendor/etc/camera/tornado/IndoorModelTOA.model
+ vendor/etc/camera/tornado/NightMinMaxTOA.txt
+ vendor/etc/camera/tornado/NightModelTOA.model
+ vendor/etc/camera/tornado/SunsetMinMaxTOA.txt
+ vendor/etc/camera/tornado/SunsetModelTOA.model
+ vendor/etc/camera/tracking/targettracking.xml
+ vendor/etc/camera/watermark/dm.argb
+ vendor/etc/camera/watermark/dm.png
+ vendor/etc/camera/watermark/param.xml
+ vendor/etc/gnss/config/gnss_lss_config_thirdparty.bin
+ vendor/etc/gnss/config/gnss_lss_rfg_key_thirdparty.pem
+ vendor/etc/gnss/config/gnss_lss_slp_thirdparty.p12
+ vendor/etc/gnss/config/gnss_suplconfig_hisi.xml
+ vendor/etc/camera/configeffect/digitalzoom/default/gcd.xml
+ vendor/etc/camera/configeffect/digitalzoom/default/rawnf.xml
+ vendor/etc/camera/configeffect/digitalzoom/default/sharpen.xml
+ vendor/etc/camera/configeffect/digitalzoom/default/yuvnf.xml
+ vendor/etc/camera/configeffect/multidenoise/default/rawnf_aux.xml
+ vendor/etc/camera/configeffect/multidenoise/default/rawnf.xml
+ vendor/etc/camera/configeffect/multidenoise/default/sharpen_aux.xml
+ vendor/etc/camera/configeffect/multidenoise/default/sharpen.xml
+ vendor/etc/camera/configeffect/multidenoise/default/yuvnf_aux.xml
+ vendor/etc/camera/configeffect/multidenoise/default/yuvnf.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/gcd_aux.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/gcd.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/rawnf_aux.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/rawnf.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/sharpen_aux.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/sharpen.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/yuvnf_aux.xml
+ vendor/etc/camera/configeffect/opticalzoom/default/yuvnf.xml
+ vendor/etc/camera/davinci/default/nicefood/imgproc.xml
+ vendor/etc/gnss/rmd/c
+ vendor/etc/gnss/rmd/e
+ vendor/etc/gnss/rmd/f
+ vendor/etc/gnss/rmd/g
+ vendor/etc/gnss/rmd/t
+-vendor/etc/init/charger/init.charger.rc
+-vendor/etc/init/charger/init.chip.charger.rc
+-vendor/etc/init/charger/init.chip.usb.rc
+-vendor/etc/init/charger/init.hisi.usb.rc
+-vendor/etc/init/connectivity/init.connectivity.bcm43455.rc
+-vendor/etc/init/connectivity/init.connectivity.bcm43xx.rc
+-vendor/etc/init/connectivity/init.connectivity.gps.rc
+-vendor/etc/init/connectivity/init.connectivity.hi1102.rc
+-vendor/etc/init/connectivity/init.connectivity.hisi.rc
+-vendor/etc/init/connectivity/init.recovery.hi1102.rc
+-vendor/etc/init/hw/init.hi6250.rc
+ vendor/etc/modemConfig/balong/basic_name
+ vendor/etc/modemConfig/balong/FieldTest.cfg
+ vendor/etc/modemConfig/VIA/basic_name
+ vendor/etc/modemConfig/VIA/viacbp82d_FieldTest.bcfg
+ vendor/lib64/camera.device@1.0-impl.so
+ vendor/lib64/camera.device@3.2-impl.so
+ vendor/lib64/camera.device@3.3-impl.so
+ vendor/lib64/camera.device@3.4-external-impl.so
+ vendor/lib64/camera.device@3.4-impl.so
+ vendor/lib64/displayeffect.hi6250.so
+ vendor/lib64/hw
+ vendor/lib64/hwcam
+ vendor/lib64/libaudio_custom.so
+ vendor/lib64/libaudio_custom_v2.so
+ vendor/lib64/libbalong-ril-1.so
+ vendor/lib64/libbalong-ril-2.so
+ vendor/lib64/libbalong-ril.so
+ vendor/lib64/libBestShot.so
+ vendor/lib64/libBootloaderOeminfo.so
+ vendor/lib64/libbt_factory_test_hisi.so
+ vendor/lib64/libbt-vendor-hisi.so
+ vendor/lib64/libbt-vendor.so
+ vendor/lib64/libdcamera_capture.so
+ vendor/lib64/libdcamera_sr.so
+ vendor/lib64/libdcamera_stream.so
+ vendor/lib64/libdcamera_visual_effect.so
+ vendor/lib64/lib_device_interface.so
+ vendor/lib64/libfcamera_visual_effect.so
+ vendor/lib64/libgnss_common_hisi.so
+ vendor/lib64/libgnss_lss_gw_thirdparty.so
+ vendor/lib64/libgnss_supl10client_hisi.so
+ vendor/lib64/libgnss_supl20client_hisi.so
+ vendor/lib64/libgnss_supl20common_hisi.so
+ vendor/lib64/libgnss_supl20if_hisi.so
+ vendor/lib64/libgps_factory_test_hisi_1102.so
+ vendor/lib64/libgps_factory_test_hisi.so
+ vendor/lib64/libgps_factory_test.so
+ vendor/lib64/libgpucommon_vendor_client.so
+ vendor/lib64/libhiion.so
+ vendor/lib64/libhisee_soc_mmi.so
+ vendor/lib64/libhisi_efuse.so
+ vendor/lib64/libhisi_wrapper.so
+ vendor/lib64/libhuaweiaudioeffectutil.so
+ vendor/lib64/libhuaweicust.so
+ vendor/lib64/libHW_BShutter.so
+ vendor/lib64/libperfgenius_vendor_client.so
+ vendor/lib64/libpf_customize_hisi.so
+ vendor/lib64/libpf_oneimage_hisi.so
+ vendor/lib64/libpf_rotate_hisi.so
+ vendor/lib64/libwifi_bcm.so
+ vendor/lib64/libwifi_ext.default.so
+ vendor/lib64/libwifi_factory_test_hisi.so
+ vendor/lib64/libwifi_factory_test.so
+ vendor/lib64/libwifi-hal-bcm.so
+ vendor/lib64/libwifi-hal.so
+ vendor/lib64/lib_wifi_sar.so
+ vendor/lib64/vendor.huawei.hardware.activity_recognition@1.0.so
+ vendor/lib64/vendor.huawei.hardware.activity_recognition@1.1.so
+ vendor/lib64/vendor.huawei.hardware.ai@1.0.so
+ vendor/lib64/vendor.huawei.hardware.ai@1.1.so
+ vendor/lib64/vendor.huawei.hardware.ai@1.2.so
+ vendor/lib64/vendor.huawei.hardware.ai@2.0.so
+ vendor/lib64/vendor.huawei.hardware.audio@2.0.so
+ vendor/lib64/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
+ vendor/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
+ vendor/lib64/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so
+ vendor/lib64/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so
+ vendor/lib64/vendor.huawei.hardware.biometrics.hwvoiceid@1.0.so
+ vendor/lib64/vendor.huawei.hardware.camera.camResource@1.0.so
+ vendor/lib64/vendor.huawei.hardware.camera.camResource@1.1.so
+ vendor/lib64/vendor.huawei.hardware.camera.camResource@1.2.so
+ vendor/lib64/vendor.huawei.hardware.camera.camResource@1.3.so
+ vendor/lib64/vendor.huawei.hardware.camera.camResource.orbService@1.0.so
+ vendor/lib64/vendor.huawei.hardware.camera.cfgsvr@1.0.so
+ vendor/lib64/vendor.huawei.hardware.camera.cfgsvr@1.1.so
+ vendor/lib64/vendor.huawei.hardware.camera.factory@1.0.so
+ vendor/lib64/vendor.huawei.hardware.dolby.dms@1.0-impl.so
+ vendor/lib64/vendor.huawei.hardware.dolby.dms@1.0.so
+ vendor/lib64/vendor.huawei.hardware.dubai@1.0.so
+ vendor/lib64/vendor.huawei.hardware.dubai@1.1.so
+ vendor/lib64/vendor.huawei.hardware.eid@1.0.so
+ vendor/lib64/vendor.huawei.hardware.eid@1.1.so
+ vendor/lib64/vendor.huawei.hardware.fm@1.0.so
+ vendor/lib64/vendor.huawei.hardware.fusd@1.0.so
+ vendor/lib64/vendor.huawei.hardware.fusd@1.1.so
+ vendor/lib64/vendor.huawei.hardware.fusd@1.2.so
+ vendor/lib64/vendor.huawei.hardware.fusd@1.3.so
+ vendor/lib64/vendor.huawei.hardware.gnss@1.0.so
+ vendor/lib64/vendor.huawei.hardware.gnss@1.1.so
+ vendor/lib64/vendor.huawei.hardware.gnss@1.2.so
+ vendor/lib64/vendor.huawei.hardware.graphics.displayeffect@1.0.so
+ vendor/lib64/vendor.huawei.hardware.graphics.displayeffect@1.1.so
+ vendor/lib64/vendor.huawei.hardware.graphics.displayeffect@1.2.so
+ vendor/lib64/vendor.huawei.hardware.graphics.gpucommon@1.0.so
+ vendor/lib64/vendor.huawei.hardware.graphics.hwcinterface@1.0.so
+ vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.0.so
+ vendor/lib64/vendor.huawei.hardware.graphics.mediacomm@2.1.so
+ vendor/lib64/vendor.huawei.hardware.hinetmanager@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hisiradio@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hisiradio@1.1.so
+ vendor/lib64/vendor.huawei.hardware.hisupl@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hivrar@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hivrar@1.1.so
+ vendor/lib64/vendor.huawei.hardware.hivrar@1.2.so
+ vendor/lib64/vendor.huawei.hardware.hivrar@1.3.so
+ vendor/lib64/vendor.huawei.hardware.huaweiantitheft@1.0.so
+ vendor/lib64/vendor.huawei.hardware.huawei_security_vnode@1.0.so
+ vendor/lib64/vendor.huawei.hardware.huaweisigntool@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwdisplay@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so
+ vendor/lib64/vendor.huawei.hardware.hwdisplay.displayengine@1.2.so
+ vendor/lib64/vendor.huawei.hardware.hwdisplay.displayfactory@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwfactoryinterface@1.1.so
+ vendor/lib64/vendor.huawei.hardware.hwfs@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwhiview@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwsched@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwsecapi@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwstp@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwupdate@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwvibrator@1.0.so
+ vendor/lib64/vendor.huawei.hardware.hwvibrator@1.1.so
+ vendor/lib64/vendor.huawei.hardware.iawareperf@1.0.so
+ vendor/lib64/vendor.huawei.hardware.iawareperfpolicy@1.0.so
+ vendor/lib64/vendor.huawei.hardware.iked@1.0.so
+ vendor/lib64/vendor.huawei.hardware.irsl@1.0.so
+ vendor/lib64/vendor.huawei.hardware.jpegdec@1.0.so
+ vendor/lib64/vendor.huawei.hardware.kds@1.0.so
+ vendor/lib64/vendor.huawei.hardware.kds@1.1.so
+ vendor/lib64/vendor.huawei.hardware.libteec@2.0.so
+ vendor/lib64/vendor.huawei.hardware.light@2.0.so
+ vendor/lib64/vendor.huawei.hardware.modemchr@1.0.so
+ vendor/lib64/vendor.huawei.hardware.modemlogcat@1.0.so
+ vendor/lib64/vendor.huawei.hardware.modemlogcat@1.1.so
+ vendor/lib64/vendor.huawei.hardware.motion@1.0.so
+ vendor/lib64/vendor.huawei.hardware.nfc@1.0.so
+ vendor/lib64/vendor.huawei.hardware.otasimlock@1.0.so
+ vendor/lib64/vendor.huawei.hardware.otherdevices@1.0.so
+ vendor/lib64/vendor.huawei.hardware.perfgenius@2.0.so
+ vendor/lib64/vendor.huawei.hardware.power@1.0.so
+ vendor/lib64/vendor.huawei.hardware.qcomradio@1.0.so
+ vendor/lib64/vendor.huawei.hardware.radio@2.0.so
+ vendor/lib64/vendor.huawei.hardware.radio.chr@1.0.so
+ vendor/lib64/vendor.huawei.hardware.radio.deprecated@1.0.so
+ vendor/lib64/vendor.huawei.hardware.radioenhance@1.0.so
+ vendor/lib64/vendor.huawei.hardware.radio.ims@1.0.so
+ vendor/lib64/vendor.huawei.hardware.rtt@1.0.so
+ vendor/lib64/vendor.huawei.hardware.sensors@1.0.so
+ vendor/lib64/vendor.huawei.hardware.tp@1.0.so
+ vendor/lib64/vendor.huawei.hardware.vdecoder@1.0.so
+ vendor/lib64/vendor.huawei.hardware.wifi@1.0.so
+ vendor/lib64/vendor.huawei.hardware.wifi@1.1.so
+ vendor/lib64/vendor.huawei.hardware.wifi.supplicant@2.0.so
+ vendor/lib64/vendor.huawei.hardware.wifi.supplicant@2.1.so
+ vendor/lib64/hwcam/hwcam.services.so
+ vendor/lib64/hw/facerecognize.hi6250.so
+ vendor/lib64/hw/fingerprint.hi6250.so
+ vendor/lib64/hw/fm.hisi.hi6250.so
+ vendor/lib64/hw/gatekeeper.hi6250.so
+ vendor/lib64/hw/gps.hi1102.default.so
+ vendor/lib64/hw/gps.hisi.default.so
+ vendor/lib64/hw/gralloc.hi6250.so
+ vendor/lib64/hw/hicam.hal.bz.so
+ vendor/lib64/hw/hicam.hal.service.so
+ vendor/lib64/hw/hisupl.hi1102.default.so
+ vendor/lib64/hw/hwcomposer.hi6250.so
+ vendor/lib64/hw/hw_touch_pressure_cal.default.so
+ vendor/lib64/hw/hw_touchscreen.default.so
+ vendor/lib64/hw/keystore.hi6250.so
+ vendor/lib64/hw/mediacomm.hi6250.so
+ vendor/lib64/hw/memtrack.hi6250.so
+ vendor/lib64/hw/thermal.hi6250.so
+ vendor/lib64/hw/vendor.huawei.hardware.activity_recognition@1.1-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.biometrics.hwvoiceid@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.fm@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.gnss@1.2-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.hisupl@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.huaweiantitheft@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.huawei_security_vnode@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.huaweisigntool@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.hwdisplay@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.hwdisplay.displayengine@1.2-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.hwfs@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.hwsecapi@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.hwstp@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.hwvibrator@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.iawareperf@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.iawareperfpolicy@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.kds@1.1-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.libteec@2.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.light@2.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.nfc@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.otherdevices@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.power@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.sensors@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.tp@1.0-impl.so
+ vendor/lib64/hw/vendor.huawei.hardware.wifi@1.1-impl.so
+ vendor/lib64/hw/voiceid.hi6250.so
+ vendor/lib/egl/libGLES_mali.so
+ vendor/lib/hw/audio.r_submix.default.so
+ vendor/lib/hw/audio.usb.default.so
+ vendor/lib/hw/CameraFactoryService.so
+ vendor/lib/hw/fingerprint.hi6250.so
+ vendor/lib/hw/fm.hisi.hi6250.so
+ vendor/lib/hw/gatekeeper.hi6250.so
+ vendor/lib/hw/gralloc.hi6250.so
+ vendor/lib/hw/hicam.hal.bz.so
+ vendor/lib/hw/hicam.hal.service.so
+ vendor/lib/hw/hwcomposer.hi6250.so
+ vendor/lib/hw/hw_touch_pressure_cal.default.so
+ vendor/lib/hw/keystore.hi6250.so
+ vendor/lib/hw/mediacomm.hi6250.so
+ vendor/lib/hw/memtrack.hi6250.so
+ vendor/lib/hw/thermal.hi6250.so
+ vendor/lib/hw/vendor.huawei.hardware.camera.factory@1.0-impl.so
+ vendor/lib/hw/vendor.huawei.hardware.graphics.displayeffect@1.0-impl.so
+ vendor/lib/hw/vendor.huawei.hardware.graphics.mediacomm@2.0-impl.so
+ vendor/lib/hw/vendor.huawei.hardware.hwfs@1.0-impl.so
+ vendor/lib/hw/vendor.huawei.hardware.libteec@2.0-impl.so
+ vendor/lib/hw/vendor.huawei.hardware.perfgenius@2.0-impl.so
+ vendor/lib/camera.device@1.0-impl.so
+ vendor/lib/camera.device@3.2-impl.so
+ vendor/lib/camera.device@3.3-impl.so
+ vendor/lib/camera.device@3.4-external-impl.so
+ vendor/lib/camera.device@3.4-impl.so
+ vendor/lib/displayeffect.hi6250.so
+ vendor/lib/egl
+ vendor/lib/ese_hw_hal.so
+ vendor/lib/hw
+ vendor/lib/libaehc.so
+ vendor/lib/libalConvert2Img_al6045.so
+ vendor/lib/libBootloaderOeminfo.so
+ vendor/lib/libbt_factory_test_hisi.so
+ vendor/lib/libbt_factory_test.so
+ vendor/lib/libbt-vendor-hisi.so
+ vendor/lib/libbt-vendor.so
+ vendor/lib/libcamerabuffer.so
+ vendor/lib/libcamera_omron.so
+ vendor/lib/libcommril.so
+ vendor/lib/libconn_factory_test.so
+ vendor/lib/libc_sec_hisi_connectivity.so
+ vendor/lib/libdcamera_sr.so
+ vendor/lib/libFaceBeautyMeiwo.so
+ vendor/lib/libfacedetection.so
+ vendor/lib/libfcamera_visual_effect.so
+ vendor/lib/lib_fpc_tac_shared.so
+ vendor/lib/libgpucommon_vendor_client.so
+ vendor/lib/libhdr_acore.so
+ vendor/lib/libhdr.so
+ vendor/lib/libhiion.so
+ vendor/lib/libhisee_soc_mmi.so
+ vendor/lib/libhisi_efuse.so
+ vendor/lib/libhisi_wrapper.so
+ vendor/lib/libhivwservice.so
+ vendor/lib/libhuaweiaudioeffectutil.so
+ vendor/lib/libhuaweicust.so
+ vendor/lib/libhw_display_effect.so
+ vendor/lib/libhw_display_test.so
+ vendor/lib/liboeminfo.so
+ vendor/lib/libOmronFR.so
+ vendor/lib/libperfgenius_vendor_client.so
+ vendor/lib/libperfhub_service.so
+ vendor/lib/libperfhub.so
+ vendor/lib/libpf_customize_hisi.so
+ vendor/lib/libpf_oneimage_hisi.so
+ vendor/lib/libpf_rotate_hisi.so
+ vendor/lib/libRefocusContrastPosition.so
+ vendor/lib/libwifi_bcm.so
+ vendor/lib/libwifi_ext.default.so
+ vendor/lib/libwifi_factory_test_hisi.so
+ vendor/lib/libwifi_factory_test.so
+ vendor/lib/libwifi-hal-bcm.so
+ vendor/lib/lib_wifi_sar.so
+ vendor/lib/libwifi_wapi_hisi.so
+ vendor/lib/vendor.huawei.hardware.activity_recognition@1.0.so
+ vendor/lib/vendor.huawei.hardware.activity_recognition@1.1.so
+ vendor/lib/vendor.huawei.hardware.ai@1.0.so
+ vendor/lib/vendor.huawei.hardware.ai@1.1.so
+ vendor/lib/vendor.huawei.hardware.ai@1.2.so
+ vendor/lib/vendor.huawei.hardware.ai@2.0.so
+ vendor/lib/vendor.huawei.hardware.audio@2.0.so
+ vendor/lib/vendor.huawei.hardware.biometrics.fingerprint@2.1.so
+ vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.0.so
+ vendor/lib/vendor.huawei.hardware.biometrics.hwfacerecognize@1.1.so
+ vendor/lib/vendor.huawei.hardware.biometrics.hwsecurefacerecognize@1.0.so
+ vendor/lib/vendor.huawei.hardware.biometrics.hwvoiceid@1.0.so
+ vendor/lib/vendor.huawei.hardware.camera.camResource@1.0.so
+ vendor/lib/vendor.huawei.hardware.camera.camResource@1.1.so
+ vendor/lib/vendor.huawei.hardware.camera.camResource@1.2.so
+ vendor/lib/vendor.huawei.hardware.camera.camResource@1.3.so
+ vendor/lib/vendor.huawei.hardware.camera.camResource.orbService@1.0.so
+ vendor/lib/vendor.huawei.hardware.camera.cfgsvr@1.0.so
+ vendor/lib/vendor.huawei.hardware.camera.cfgsvr@1.1.so
+ vendor/lib/vendor.huawei.hardware.camera.factory@1.0.so
+ vendor/lib/vendor.huawei.hardware.dolby.dms@1.0-impl.so
+ vendor/lib/vendor.huawei.hardware.dolby.dms@1.0.so
+ vendor/lib/vendor.huawei.hardware.dubai@1.0.so
+ vendor/lib/vendor.huawei.hardware.dubai@1.1.so
+ vendor/lib/vendor.huawei.hardware.eid@1.0.so
+ vendor/lib/vendor.huawei.hardware.eid@1.1.so
+ vendor/lib/vendor.huawei.hardware.fm@1.0.so
+ vendor/lib/vendor.huawei.hardware.fusd@1.0.so
+ vendor/lib/vendor.huawei.hardware.fusd@1.1.so
+ vendor/lib/vendor.huawei.hardware.fusd@1.2.so
+ vendor/lib/vendor.huawei.hardware.fusd@1.3.so
+ vendor/lib/vendor.huawei.hardware.gnss@1.0.so
+ vendor/lib/vendor.huawei.hardware.gnss@1.1.so
+ vendor/lib/vendor.huawei.hardware.gnss@1.2.so
+ vendor/lib/vendor.huawei.hardware.graphics.displayeffect@1.0.so
+ vendor/lib/vendor.huawei.hardware.graphics.displayeffect@1.1.so
+ vendor/lib/vendor.huawei.hardware.graphics.displayeffect@1.2.so
+ vendor/lib/vendor.huawei.hardware.graphics.gpucommon@1.0.so
+ vendor/lib/vendor.huawei.hardware.graphics.hwcinterface@1.0.so
+ vendor/lib/vendor.huawei.hardware.graphics.mediacomm@2.0.so
+ vendor/lib/vendor.huawei.hardware.graphics.mediacomm@2.1.so
+ vendor/lib/vendor.huawei.hardware.hinetmanager@1.0.so
+ vendor/lib/vendor.huawei.hardware.hisiradio@1.0.so
+ vendor/lib/vendor.huawei.hardware.hisiradio@1.1.so
+ vendor/lib/vendor.huawei.hardware.hisupl@1.0.so
+ vendor/lib/vendor.huawei.hardware.hivrar@1.0.so
+ vendor/lib/vendor.huawei.hardware.hivrar@1.1.so
+ vendor/lib/vendor.huawei.hardware.hivrar@1.2.so
+ vendor/lib/vendor.huawei.hardware.hivrar@1.3.so
+ vendor/lib/vendor.huawei.hardware.huaweiantitheft@1.0.so
+ vendor/lib/vendor.huawei.hardware.huawei_security_vnode@1.0.so
+ vendor/lib/vendor.huawei.hardware.huaweisigntool@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwdisplay@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.1.so
+ vendor/lib/vendor.huawei.hardware.hwdisplay.displayengine@1.2.so
+ vendor/lib/vendor.huawei.hardware.hwdisplay.displayfactory@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwfactoryinterface@1.1.so
+ vendor/lib/vendor.huawei.hardware.hwfs@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwhiview@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwsched@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwsecapi@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwstp@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwupdate@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwvibrator@1.0.so
+ vendor/lib/vendor.huawei.hardware.hwvibrator@1.1.so
+ vendor/lib/vendor.huawei.hardware.iawareperf@1.0.so
+ vendor/lib/vendor.huawei.hardware.iawareperfpolicy@1.0.so
+ vendor/lib/vendor.huawei.hardware.iked@1.0.so
+ vendor/lib/vendor.huawei.hardware.irsl@1.0.so
+ vendor/lib/vendor.huawei.hardware.jpegdec@1.0.so
+ vendor/lib/vendor.huawei.hardware.kds@1.0.so
+ vendor/lib/vendor.huawei.hardware.kds@1.1.so
+ vendor/lib/vendor.huawei.hardware.libteec@2.0.so
+ vendor/lib/vendor.huawei.hardware.light@2.0.so
+ vendor/lib/vendor.huawei.hardware.modemchr@1.0.so
+ vendor/lib/vendor.huawei.hardware.modemlogcat@1.0.so
+ vendor/lib/vendor.huawei.hardware.modemlogcat@1.1.so
+ vendor/lib/vendor.huawei.hardware.motion@1.0.so
+ vendor/lib/vendor.huawei.hardware.nfc@1.0.so
+ vendor/lib/vendor.huawei.hardware.otasimlock@1.0.so
+ vendor/lib/vendor.huawei.hardware.otherdevices@1.0.so
+ vendor/lib/vendor.huawei.hardware.perfgenius@2.0.so
+ vendor/lib/vendor.huawei.hardware.power@1.0.so
+ vendor/lib/vendor.huawei.hardware.qcomradio@1.0.so
+ vendor/lib/vendor.huawei.hardware.radio@2.0.so
+ vendor/lib/vendor.huawei.hardware.radio.chr@1.0.so
+ vendor/lib/vendor.huawei.hardware.radio.deprecated@1.0.so
+ vendor/lib/vendor.huawei.hardware.radioenhance@1.0.so
+ vendor/lib/vendor.huawei.hardware.radio.ims@1.0.so
+ vendor/lib/vendor.huawei.hardware.rtt@1.0.so
+ vendor/lib/vendor.huawei.hardware.sensors@1.0.so
+ vendor/lib/vendor.huawei.hardware.tp@1.0.so
+ vendor/lib/vendor.huawei.hardware.vdecoder@1.0.so
+ vendor/lib/vendor.huawei.hardware.wifi@1.0.so
+ vendor/lib/vendor.huawei.hardware.wifi@1.1.so
+ vendor/lib/vendor.huawei.hardware.wifi.supplicant@2.0.so
+ vendor/lib/vendor.huawei.hardware.wifi.supplicant@2.1.so
+ vendor/phone.prop
+-vendor/ueventd.rc
