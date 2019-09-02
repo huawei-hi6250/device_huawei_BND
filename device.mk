@@ -14,50 +14,6 @@
 
 PRODUCT_BRAND := Huawei
 PRODUCT_DEVICE := BND
-PRODUCT_NAME := aosp_BND
-
-# add all configurations
-PRODUCT_AAPT_CONFIG := normal ldpi mdpi hdpi xhdpi xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := hdpi
-
-# en_US only
-PRODUCT_LOCALES := en_US
-
-PRODUCT_PACKAGES += \
-    Bluetooth \
-    FusedLocation \
-    InputDevices \
-    Keyguard \
-    LatinIME \
-    Phone \
-    PrintSpooler \
-    Provision \
-    Settings \
-    SystemUI \
-    TeleService \
-    TestingCamera \
-    WAPPushManager \
-    audio \
-    audio.primary.default \
-    com.android.future.usb.accessory \
-    hostapd \
-    wificond \
-    wifilogd \
-    librs_jni \
-    libvideoeditor_core \
-    libvideoeditor_jni \
-    libvideoeditor_osal \
-    libvideoeditorplayer \
-    libvideoeditor_videofilters \
-    lint \
-    local_time.default \
-    network \
-    pand \
-    power.default \
-    sdptool \
-    vibrator.default \
-    wpa_supplicant.conf
-
 
 PRODUCT_COPY_FILES += \
     frameworks/av/media/libeffects/data/audio_effects.conf:system/etc/audio_effects.conf \
@@ -69,7 +25,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.carrier=unknown \
     ro.config.ringtone=Ring_Synth_04.ogg \
     ro.config.notification_sound=pixiedust.ogg
 
