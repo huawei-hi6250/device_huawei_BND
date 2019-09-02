@@ -14,6 +14,7 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 PRODUCT_NAME := aosp_BND
 PRODUCT_DEVICE := BND
