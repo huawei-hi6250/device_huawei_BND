@@ -3,6 +3,7 @@
 # Product-specific compile-time definitions.
 #
 
+DEVICE_PATH := device/huawei/BND
 
 TARGET_NO_BOOTLOADER := true
 
@@ -34,7 +35,7 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-androidkernel-
 
 # Some framework code requires this to enable BT
 BOARD_HAVE_BLUETOOTH := true
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/BND/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 
 USE_CAMERA_STUB := true
